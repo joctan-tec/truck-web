@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-purple-gradient {
+    /*Gradient to rigth*/
+    background: linear-gradient(to right, #17153B, #343069);
+}
+
+.bg-purple-light-gradient {
+    /*Gradient to rigth*/
+    background: linear-gradient(to right, #433D8B, #6d66b9);
+}
+
+.bg-red-gradient {
+    /*Gradient to rigth*/
+    background: linear-gradient(to right, #630000, #b30606);
+}
+
+.bg-gray-gradient {
+    /*Gradient to rigth*/
+    background: linear-gradient(to right, #1f1f1f, #3d3d3d);
+}
+
+.bg-gray-light-gradient {
+    /*Gradient to rigth*/
+    background: linear-gradient(to right, #000000, #161616);
+}
+
+.icon-white-gradient {
+    background: linear-gradient(to right, #ffffff, #dbdbdb);
+    box-shadow: #46464680 2px 2px 10px;
+}
+
+.card-color{
+    background: linear-gradient(to right, #008cff, #59b4ff);
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-body {
+    background: linear-gradient(#e7f1ff, #f3f8ff);
+    color: #6e6e6e;
+}
+
+.bg-transparent {
+    background: transparent;
+    
+}
+
+.bg-blur {
+    background: rgba(255, 255, 255, 0.014); /* Fondo semitransparente */
+    backdrop-filter: blur(3px); /* Nivel de desenfoque */
+    -webkit-backdrop-filter: blur(3px); /* Soporte para Safari */
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.btn-glass {
+    background: #ffffff17;
+}
+
+
+/*Sizing*/
+
+.screen-height {
+    height: 100dvh;
+}
+
+.mid-screen-height {
+    height: 50vh;
+}
+
+.feature-icon-size{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.max-width-800 {
+    max-width: 800px;
+}
+
+.max-width-450 {
+    max-width: 450px;
+}
+
+.fs-6 {
+    font-size: 1.5rem;
+}
+
+.parent{
+    scroll-snap-type: y mandatory;
+    padding: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.child-div {
+    scroll-snap-align: center;
+}
+
+.social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: invert(1);
+}
+
+@media screen and (max-width: 768px) {
+    .bg-blur {
+        background: rgba(255, 255, 255, 0.014); /* Fondo semitransparente */
+        backdrop-filter: blur(10px); /* Nivel de desenfoque */
+        -webkit-backdrop-filter: blur(10px); /* Soporte para Safari */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .screen-height {
+        height: auto;
+        padding: 3rem 1.5rem;
+    }
+
+    .mid-screen-height {
+        height: auto;
+        padding: 1.5rem;
+    }
+}
